@@ -4,9 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import emailIcon from '../assets/emailIcon.png';
 import linkedinIcon from '../assets/linkedinIcon.png';
 import githubIcon from '../assets/githubIcon.png';
- 
-
-
+  
 export const NavBar = () => {
 
     const [activeLink, setActiveLink] = useState('home');
@@ -43,18 +41,17 @@ export const NavBar = () => {
                     <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
                     <Nav.Link href="#experience" className={activeLink === 'experience' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('experience')}>Experience</Nav.Link>
                 </Nav>
-                <span className="navebar-text">
+                <span className="navbar-text">
                     <div className="social-icon">
                         <a href="#"><img src={emailIcon} alt="email icon" /></a>
                         <a href="#"><img src={linkedinIcon} alt="linkedin icon" /></a>
                         <a href="#"><img src={githubIcon} alt="github ion" /></a>
+
+                        <button className="connectBtn" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
                     </div>
-                    <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect!</span></button>
                 </span>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
     )
-
 }

@@ -1,3 +1,12 @@
+:root {
+  --PrimClrTxtLt: #000000;
+  --SecClrTxtLt: #343944;
+  --BtnTxtClrLt: #ffffff;
+  --PrimBtnClrLt: #000000;
+  --SecBtnClrlt: #292929;
+
+}
+
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -9,22 +18,32 @@ nav.navbar {
 
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: var(--PrimaryClrLight);
 }
 
 .navbar-text button {
-  font-weight: 700;
-  color: #FFF;
-  padding: 18px 34px;
-  font-size: 18px;
-  margin-left: 18px;
+  font-weight: 500;
+  color: var(--BtnTxtClrLt);
+  padding: 5px 20px;
+  font-size: 15px;
   position: relative;
-  background-color: transparent;
-  transition: 0.3s ease-in-out;
+  transition: 0.1s ease-in-out;
+  cursor: pointer;
+  border-radius: 1.5rem;
 }
 
 nav.navbar button span {
   z-index: 1;
+}
+
+.connectBtn:hover {
+  background-color: var(--SecBtnClrlt);
+}
+
+.social-icon img{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
 
 
@@ -45,7 +64,7 @@ nav.navbar button span {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--SecClrTxtLt);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -67,3 +86,24 @@ nav.navbar button span {
     transform: rotate(360deg);
   }
 }
+
+.connectBtn {
+  background-color: var(--PrimBtnClrLt);
+  color: var(--BtnTxtClrLt);
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 1.5rem;
+}
+
+.connectBtn:hover {
+  background-color: var(--SecBtnClrlt);
+}
+
+.social-icon img{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
