@@ -42,9 +42,9 @@ export const Banner = () => {
             setDelta(500);
         }
 
+        
+
     }
-
-
 
 
     return (
@@ -56,14 +56,24 @@ export const Banner = () => {
                         <p>Welcome to my personal space for projects and passion</p>
                         <button onClick={() => console.log('connect')}>View Resume</button>
                     </Col>
-                    <Col xs={12} md={6} xl={5}>
+                    <Col xs={12} md={6} xl={5} className="profile-image-container">
                         <img 
                             src={profileImage} 
                             alt="profile image"
-                            style={{ width: '100%', height: 'auto' }} />
+                            style={{ 
+                                width: '25rem',
+                                height: 'auto',
+                                borderRadius: '50%',
+                                aspectRatio: '1 / 1',
+                                objectFit: 'cover',
+                                marginTop: '130px',
+                            }} />
                     </Col>
                 </Row>
             </Container>
         </section>
     )
 }
+
+
+
