@@ -9,7 +9,7 @@
 
 nav.navbar {
   padding: 18px 0;
-  position: fixed;
+  position: fixed;  
   width: 100%;
   top: 0;
   z-index: 9999;
@@ -45,8 +45,6 @@ nav.navbar button span {
   height: 30px;
   margin-right: 10px;
 }
-
-
 
 .App {
   text-align: center;

@@ -9,7 +9,7 @@ export const NavBar = () => {
 
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, seScrolled] = useState(false);
-
+ 
 
     useEffect(() => {
         const onScroll = () => {
