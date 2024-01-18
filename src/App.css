@@ -1,10 +1,11 @@
 :root {
   --PrimClrTxtLt: #000000;
   --SecClrTxtLt: #343944;
-  --BtnTxtClrLt: #ffffff;
-  --PrimBtnClrLt: #000000;
-  --SecBtnClrlt: #292929;
-
+  --tertClrTextLt: #677184;
+  --primBgClr: white;
+  --secBgClr: #F8F9FA;
+  --PrimBtnClr: #000000;
+  --SecBtnClr: #5d6874;
 }
 
 body {
@@ -69,7 +70,61 @@ nav.navbar button span {
   margin-right: 10px;
 }
 
-/* Carousel */
+/* Projects ------------------------------- */
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0rem 10rem 0rem 10rem;
+}
+
+.cardlistContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 1.2rem;
+  padding: 25px;
+  background-color: var(--secBgClr);
+  border-radius: 1rem;
+  box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.projText {
+  text-align: left;
+  color: var(--SecClrTxtLt);
+}
+
+.projText p:first-child {
+  color: var(--tertClrTextLt);
+}
+
+.title {
+  margin-bottom: 3rem;
+  color: var(--PrimClrTxtLt)
+}
+
+
+.projBtn * {
+  margin-right: 10px;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  background-color: var(--PrimBtnClr);
+  color: var(--secBgClr);
+}
+
+/* About Me ----------------------------- */
+
+
+
+
+
+
+
+
+
+/* Carousel ----------------------------- */
 .carousel-item {
   margin-top: 200px;
 }

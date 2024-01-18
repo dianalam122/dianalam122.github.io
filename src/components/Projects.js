@@ -29,7 +29,7 @@ const Projects = () => {
     },
   ]);
 
-  return (
+  return ( 
     <div className="projects">
       <h1 className="title">Projects</h1>
       <CardList cards={cards} />

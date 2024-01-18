@@ -8,15 +8,19 @@ const CardList = (props) => {
       {cards.map((card) => (
         // display flex row
         <div className="cardlistContainer" key={card.id}>
-          <p>{card.tools}</p>
-          <h2>{card.title}</h2>
-          <p>{card.body}</p>
-          <button onClick={() => window.open(card.viewUrl, "_blank")}>
-            View
-          </button>
-          <button onClick={() => window.open(card.githubUrl, "_blank")}>
-            GitHub
-          </button>
+          <div class="projText"> 
+            <p>{card.tools}</p>
+            <h2>{card.title}</h2>
+            <p>{card.body}</p>
+            <div className="projBtn">
+              <button onClick={() => window.open(card.viewUrl, "_blank")}>
+                View
+              </button>
+              <button onClick={() => window.open(card.githubUrl, "_blank")}>
+                GitHub
+              </button>
+            </div>
+          </div>
           <img src={card.image} alt={card.title} />
         </div>
       ))}
