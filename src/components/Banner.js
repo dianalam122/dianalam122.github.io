@@ -51,7 +51,7 @@ export const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <h1>{`Hi, I'm Diana`} </h1>
+                        <h1>{`Hi, I'm Diana!`} </h1>
                         <h1 className="wrap">{text}</h1>
 
                         {/* "Embarking on a journey towards becoming a web designer 

@@ -10,9 +10,9 @@ const CardList = (props) => {
                 <div className="card-preview" key={card.id}>
                     <p>{card.tools}</p>
                     <h2>{card.title}</h2>
-                    <p>{card.description}</p>
-                    {/* <button onClick={card.onViewClick}>View</button>
-                    <button onClick={card.onGithubClick}>Github</button> */}
+                    <p>{card.body}</p>
+                    <button onClick={() => window.open(card.viewUrl, '_blank')}>View</button>
+                    <button onClick={() => window.open(card.githubUrl, '_blank')}>GitHub</button>
                 </div>
             ))}
         </div>
