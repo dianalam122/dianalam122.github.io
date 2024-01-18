@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import profileImage from '../assets/profileImage.jpeg';
 import { Container, Row, Col } from "react-bootstrap";
-  
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -57,7 +56,7 @@ export const Banner = () => {
 
                         {/* "Embarking on a journey towards becoming a web designer 
                          fueled by a passionate enthusiasm for web design." */}
-                         
+
                         <p>Welcome to my personal space for projects and passion</p>
                         <button onClick={() => console.log('connect')}>View Resume</button>
                     </Col>
@@ -82,3 +81,8 @@ export const Banner = () => {
 
 
 
+
+
+// to do:
+// - animate terminal with description 
+// - button CSS
