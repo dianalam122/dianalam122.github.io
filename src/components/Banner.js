@@ -81,8 +81,6 @@ export const Banner = () => {
 
 
 
-
-
 // to do:
 // - animate terminal with description 
 // - button CSS
