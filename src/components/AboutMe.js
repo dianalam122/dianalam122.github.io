@@ -3,12 +3,13 @@ import AboutCardList from "./AboutCard";
 
 const AboutMe = () => {
   const AboutCards = [
-    { title: "Face Painter", content: "A personal mission is to build inclusive experiences to bring face painting to everyone, including those who are young-at-heart." },
-    { title: "UI/UX Designer", content: "I have a penchant for crafting sleek, professional, and modern looks that not only captivate users but also enhance their overall digital experience." },
+    { title: "UI/UX Designer", content: "I have a penchant for crafting sleek, professional, and modern looks that not only captivate users but also enhance their overall digital experience.", view: "https://github.com/dianalam122" },
+    { title: "Face Painter", content: "A personal mission is to build inclusive experiences to bring face painting to everyone, including those who are young-at-heart.", view: "https://github.com/dianalam122" },
+    
   ];
 
   return (
-    <div >
+    <div className="aboutMe">
       <h1>
         About Me
       </h1>

@@ -5,15 +5,17 @@ const AboutCardList = (props) => {
   return (
     <div className="AboutCardList">  
       {AboutCards.map((AboutCard) => (
-        // display flex row
         <div className="AboutCardContainer" key={AboutCard.id}>
           <h3>{AboutCard.title}</h3>
           <p>{AboutCard.content}</p>
+          <button onClick={() => window.open(AboutCard.view, "_blank")}>
+            More
+          </button>
         </div>
       ))}
     </div>
   );
 };
-
+ 
 export default AboutCardList;
 

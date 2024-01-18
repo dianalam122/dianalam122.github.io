@@ -116,15 +116,48 @@ nav.navbar button span {
 
 /* About Me ----------------------------- */
 
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 3rem 10rem 0rem 10rem;
+}
 
+.aboutMe p {
+  color: var(--SecClrTxtLt);
+}
 
+.aboutMe h1 {
+  margin-bottom: 3rem;
+}
 
+.AboutCardList {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
 
+.AboutCardContainer {
+  padding: 1.5rem;
+  background-color: var(--secBgClr);
+  margin-right: 20px;
+  border-radius: 1rem;
+  box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.1);
+}
 
+.AboutCardContainer button {
+  border: none;
+  border-radius: 1rem;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  background-color: var(--PrimBtnClr);
+  color: var(--secBgClr);
+  font-size: 12px;
+}
 
 
 
 /* Carousel ----------------------------- */
 .carousel-item {
-  margin-top: 200px;
+  margin-top: 230px;
 }
