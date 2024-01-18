@@ -1,15 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, Container } from "react-bootstrap";  
 import Nav from 'react-bootstrap/Nav';
-HEAD
-// import emailIcon from '../assets/emailIcon.png';
-// import linkedinIcon from '../assets/linkedinIcon.png';
-// import githubIcon from '../assets/githubIcon.png';
-  
-
-import emailIcon from '../assets/emailIcon.png';
-import linkedinIcon from '../assets/linkedinIcon.png';
-import githubIcon from '../assets/githubIcon.png';
 
 export const NavBar = () => {
 
