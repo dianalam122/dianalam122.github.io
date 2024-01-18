@@ -107,6 +107,7 @@ nav.navbar button span {
 
 .projBtn * {
   margin-right: 10px;
+  font-size: 12px;
   border: none;
   border-radius: 1rem;
   padding: 0.2rem 1rem 0.2rem 1rem;
