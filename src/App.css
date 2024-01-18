@@ -107,4 +107,7 @@ nav.navbar button span {
 
 /* banner section */
 
-
+/* Carousel */
+.carousel-item {
+  margin-top: 200px;
+}

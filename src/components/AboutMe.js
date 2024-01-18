@@ -8,7 +8,7 @@ const AboutMe = () => {
   ];
 
   return (
-    <div>
+    <div >
       <h1>Im diana</h1>
       <p>I attend the university of waterloo...</p>
       <AboutCardList AboutCards={AboutCards} />
