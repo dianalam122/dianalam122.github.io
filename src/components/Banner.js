@@ -1,6 +1,9 @@
 // import React, { useState, useEffect } from "react";
 import profileImage from '../assets/profileImage.jpeg';
 import { Container, Row, Col } from "react-bootstrap";
+import emailIcon from '../assets/emailIcon.png';
+import linkedinIcon from '../assets/linkedinIcon.png';
+import githubIcon from '../assets/githubIcon.png';
 
 export const Banner = () => {
     // const [loopNum, setLoopNum] = useState(0);
@@ -52,6 +55,18 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <h1>{`Hi, I'm Diana!`} </h1>
+HEAD
+                        <h1 className="wrap">{text}</h1>
+                        <p>Welcome to my personal space for projects and passion</p>
+                        {/* <button onClick={() => console.log('connect')}>View Resume</button> */}
+                        <span className="navbar-text">
+                            <div className="social-icon">
+                                <a href="#"><img src={emailIcon} alt="email icon" /></a>
+                                <a href="#"><img src={linkedinIcon} alt="linkedin icon" /></a>
+                                <a href="#"><img src={githubIcon} alt="github ion" /></a>
+                            </div>
+                        </span>
+
                         {/* <h1 className="wrap">{text}</h1> */}
 
                         {/* "Embarking on a journey towards becoming a web designer 
@@ -59,6 +74,7 @@ export const Banner = () => {
 
                         <p>Web Developer from the GTA</p>
                         <button onClick={() => console.log('connect')}>View Resume</button>
+banner
                     </Col>
                     <Col xs={12} md={6} xl={5} className="profile-image-container">
                         <img 
