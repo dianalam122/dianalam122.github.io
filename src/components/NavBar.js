@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import emailIcon from '../assets/emailIcon.png';
 import linkedinIcon from '../assets/linkedinIcon.png';
 import githubIcon from '../assets/githubIcon.png';
-  ç
+
 export const NavBar = () => {
 
     const [activeLink, setActiveLink] = useState('home');
