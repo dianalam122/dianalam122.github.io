@@ -158,7 +158,24 @@ nav.navbar button span {
 
 
 
-/* Carousel ----------------------------- */
+/* Experience ----------------------------- */
 .carousel-item {
-  margin-top: 230px;
+  margin-top: 280px;
 }
+
+.carousel-item button {
+  border: none;
+  border-radius: 1rem;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  background-color: var(--PrimBtnClr);
+  color: var(--secBgClr);
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.carousel-item h3 {
+  color: var(--SecClrTxtLt);
+  font-size: 25px;
+  font-weight: 400;
+}
+

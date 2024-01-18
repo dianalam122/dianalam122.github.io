@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
-import profileImage from '../assets/profileImage.jpeg';
+import Resume from '../assets/resumeWebsite.pdf';
+
 
 function Experience() {
     const carouselStyle = {
@@ -22,6 +23,9 @@ function Experience() {
                         <h1>Marketing Director</h1>
                         <h3>Ignition Hacks</h3>
                         <p>Devised and executed a comprehensive social media campaign, resulting in a record-breaking 700+ participants. Led and directed the marketing team to boost the number of participants by 188% since last iteration.</p>
+                        <button onClick={() => window.open(Resume, "_blank")}>
+                        resume
+                        </button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className="carousel-item">
@@ -32,6 +36,9 @@ function Experience() {
                             Established partnerships with companies across the GTA, offering professional face painting services for
                             diverse events, including Taste of India and Taste of Middle East, engaging with over 300,000 participants      
                         </p>
+                        <button onClick={() => window.open({Resume}, "_blank")}>
+                        resume
+                        </button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className="carousel-item">
@@ -42,6 +49,9 @@ function Experience() {
                             Handled entire project scope, managing the project team and the resources assigned to the project. 
                             Assisted colleagues by breaking down complex project topics into manageable components to delegate.
                         </p>
+                        <button onClick={() => window.open({Resume}, "_blank")}>
+                        resume
+                        </button>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
