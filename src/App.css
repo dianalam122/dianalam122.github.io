@@ -44,13 +44,30 @@ nav.navbar button span {
   color: white;
 }
 
+/* banner section ----------------------- */
+
+.bannerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12rem 0rem 5rem 0rem;
+}
+
+.bannerText h1:nth-child(1) {
+  font-size: 6rem;
+}
+
+.bannerText h1:nth-child(2) {
+  font-size: 4rem;
+  padding-bottom: 30px;
+}
+
 .social-icon img{
   width: 25px;
   height: 25px;
   margin-right: 10px;
 }
-
-/* banner section */
 
 /* Carousel */
 .carousel-item {

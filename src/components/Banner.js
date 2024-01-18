@@ -9,19 +9,16 @@ export const Banner = () => {
         <section className="banner" id="home">
             <Container>
                 <Row className="align-items-center">
-                    <Col xs={12} md={6} xl={7}>
-                        <h1>{`Hi, I'm Diana,`} </h1>
-                        <p> a Web Developer from the GTA.</p>
-                        {/* <button onClick={() => console.log('connect')}>View Resume</button> */}
-                        <span className="navbar-text">
+                        <div className="bannerText">
+                            <h1>{`Hi, I'm Diana.`} </h1>
+                            <h1>A Web Developer.</h1>
                             <div className="social-icon">
                                 <a href="#"><img src={emailIcon} alt="email icon" /></a>
                                 <a href="#"><img src={linkedinIcon} alt="linkedin icon" /></a>
                                 <a href="#"><img src={githubIcon} alt="github ion" /></a>
                             </div>
-                        </span>
-                    </Col>
-                    <Col xs={12} md={6} xl={5} className="profile-image-container">
+                        </div>
+                    {/* <Col xs={12} md={6} xl={5} className="profile-image-container">
                         <img 
                             src='https://placehold.co/60x40'
                             alt="profile image"
@@ -34,7 +31,7 @@ export const Banner = () => {
                                 marginTop: '100px',
                                 marginBottom: '100px',
                             }} />
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
         </section>
