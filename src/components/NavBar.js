@@ -41,15 +41,6 @@ export const NavBar = () => {
                     <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>About me</Nav.Link>
                     <Nav.Link href="#experience" className={activeLink === 'experience' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('experience')}>Experience</Nav.Link>
                 </Nav>
-                <span className="navbar-text">
-                    <div className="social-icon">
-                        <a href="#"><img src={emailIcon} alt="email icon" /></a>
-                        <a href="#"><img src={linkedinIcon} alt="linkedin icon" /></a>
-                        <a href="#"><img src={githubIcon} alt="github ion" /></a>
-
-                        <button className="connectBtn" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
-                    </div>
-                </span>
           </Navbar.Collapse>
         </Container>
       </Navbar>
