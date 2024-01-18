@@ -108,3 +108,10 @@ nav.navbar button span {
 /* banner section */
 
 
+.App {
+  background-color: #000000;
+}
+
+.experienceContainer .carousel-caption {
+  color: white;
+}

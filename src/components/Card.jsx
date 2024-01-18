@@ -6,7 +6,8 @@ const CardList = (props) => {
   return (
     <div className="card-list">
       {cards.map((card) => (
-        <div className="card-preview" key={card.id}>
+        // display flex row
+        <div className="cardlistContainer" key={card.id}>
           <p>{card.tools}</p>
           <h2>{card.title}</h2>
           <p>{card.body}</p>
